@@ -25,11 +25,13 @@ function dec(n){
   return n-=1
 }
 
-function makeInt(){
-  return 
+function makeInt(n){
+  return parseInt(n)
 }
 
-
+function preserveDecimal(n){
+  return parseFloat(n)
+}
 
 
 
