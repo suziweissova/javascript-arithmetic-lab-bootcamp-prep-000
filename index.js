@@ -1,36 +1,35 @@
-var a = 5
-var b = 5
+var a = Math.floor(Math.random() * 1000)
+var b = Math.floor(Math.random() * 1000)
 
-function add(){
-  return 1+5;
+function add(a, b){
+  return a+b; 
 }
 
-add(); 
 
-function subtract(){
+function subtract(a, b){
   return a-b;
 }
 
-function multiply(){
+function multiply(a, b){
   return a*b;
 }
 
-function divide(){
+function divide(a, b){
   return a/b; 
 }
 
-function inc(n){
-  
+function inc(n) {
+  return n += 1
 }
 
-function dec(n){
-  
+function dec(n) {
+  return n -= 1
 }
 
-function makeInt(n){
-  
+function makeInt(n) {
+  return parseInt(n, 10)
 }
 
-function preserveDecimal(n){
-  
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
